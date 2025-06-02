@@ -2,18 +2,13 @@ const decreaseBtn = document.getElementById("decreaseBtn");
 const increaseBtn = document.getElementById("increaseBtn");
 const resetBtn = document.getElementById("resetBtn");
 const countLabel = document.getElementById("countLabel");
-let warning = document.getElementById("warning");
 let count = 0;
 
 increaseBtn.onclick = function(){
     count++;
     countLabel.textContent = count;
-    warning.textContent = ""; // Clear warning message
-    if (count > 10){
-        count++;
-        countLabel.textContent = count;
-       warning.textContent = "Count is more than 10";
-       console.log("Warning: Count exceeded 10");
+    if (count >20){
+        resetBtn.disabled = false;
     }
     console.log("Count increased to: " + count);    
 }

@@ -8,7 +8,7 @@ let count = 0;
 increaseBtn.onclick = function(){
     count++;
     countLabel.textContent = count;
-    warning.textContent = ""; // Clear warning message
+    warning.textContent = "counter program"; // Clear warning message
     if (count > 10){
         count++;
         countLabel.textContent = count;
