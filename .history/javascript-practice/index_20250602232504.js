@@ -8,12 +8,9 @@ let count = 0;
 increaseBtn.onclick = function(){
     count++;
     countLabel.textContent = count;
-    warning.textContent = ""; // Clear warning message
-    if (count > 10){
-        count++;
-        countLabel.textContent = count;
-       warning.textContent = "Count is more than 10";
-       console.log("Warning: Count exceeded 10");
+    if (count = 20){
+       warning.textContent = "Count is more than 20";
+       count = 0;
     }
     console.log("Count increased to: " + count);    
 }
