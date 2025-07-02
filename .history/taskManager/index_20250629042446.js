@@ -1,0 +1,18 @@
+const task = document.getElementById("task");
+const addTask = document.getElementById("addTask");
+const taskList = document.getElementById("taskList");
+const time = document.getElementById("time");
+const setTime = document.getElementById("setTime");
+
+addTask.onclick = function() {
+    const li = document.createElement("li");
+    li.textContent = task.value;
+    taskList.appendChild(li);
+    task.value = "";
+};
+
+setTime.onclick = function() {
+    const li = document.createElement("li");
+    li.textContent = "Time set for: " + time.value;
+    taskList.appendChild(li);
+};

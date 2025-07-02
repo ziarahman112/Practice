@@ -1,0 +1,80 @@
+body {
+    background-color: hsla(0, 0%, 94%, 0.712);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #header {
+    text-align: center;
+    padding: 20px;
+    color: rgb(6, 6, 6);
+    font-size: 2em;
+    font-weight: bold;
+    border: 10px solid hsl(127, 16%, 89%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* Flex container to align form and list side by side */
+  #taskContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1000px;
+  }
+  
+  /* Shared styles for both blocks */
+  #taskManager,
+  #taskList {
+    margin: 0;
+  }
+  
+  /* Task input box styling */
+  #taskManager {
+    background-color: white;
+    font-size: 1.5em;
+    text-align: center;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"],
+  input[type="time"] {
+    width: 80%;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: rgb(18, 18, 18);
+    border: rgb(249, 240, 240);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: antiquewhite;
+  }
+  
+  #taskList {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(6, 6, 6);
+    background-color: hsl(127, 16%, 89%);
+    padding: 20px;
+    max-width: 400px;
+    border: 10px solid hsl(127, 16%, 89%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    list-style-type: disc;
+    text-align: left;
+  }
+  

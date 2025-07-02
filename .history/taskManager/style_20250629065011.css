@@ -1,0 +1,26 @@
+body {
+    background-color: hsla(0, 0%, 94%, 0.712);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    text-align: center;
+    padding: 20px;
+    color: rgb(6, 6, 6);
+    font-size: 2em;
+    font-weight: bold;
+    border: 10px solid hsl(127, 16%, 89%);
+    border-radius: 10px;
+}
+#taskManager {
+    background-color: white;
+    font-size: 1.5em;
+    text-align: center;
+    align-content: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
