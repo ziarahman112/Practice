@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1 id="header">Task Manager</h1>
+
+  <!-- Flex container to hold task input + task list -->
+  <div id="taskContainer">
+    <div id="taskManager">
+      <h2>Add Task</h2>
+      <input type="text" id="task" placeholder="Enter a new task" name="unit" /> <br />
+      <button id="addTask">Add Task</button><br /><br />
+
+      <h2>Add a Time</h2>
+      <input type="time" id="time" name="unit" /> <br />
+      <button id="setTime">Set Time</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <p id="paragraph"></p>
+</body>
+</html>

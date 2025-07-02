@@ -1,0 +1,16 @@
+body{
+    font-family: cursive;
+    text-align: center;
+}
+#header{
+    font-family: cursive;
+    font-size: 2em;
+
+}
+#checkAge{
+    font-family:cursive;
+    color: black;
+    cursor: pointer;
+    font-size: 2em;;
+   
+}

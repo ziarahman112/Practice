@@ -1,0 +1,11 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+#buttons{
+    font-size: 3em;
+    color: white;
+    padding: 10px 20px;
+    font-family: cursive;
+    background-color: black;
+}
